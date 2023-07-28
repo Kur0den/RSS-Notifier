@@ -17,7 +17,7 @@ def job():
     '''
 
 ## 分ごとにRSSを取得したいなら
-schedule.every(MINUTE).minutes.do(job)
+# schedule.every(MINUTE).minutes.do(job)
 ## 時ごとに取得なら
 # schedule.every(HOUR).hours.do(job)
 ## 指定時刻に取得なら
